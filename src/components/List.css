@@ -1,0 +1,26 @@
+.list {
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 #999;
+  margin: 0.6em auto 0.3em;
+  width: 95%;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 414px) {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 1em;
+  }
+}
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 1024px) {
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 1em;
+  }
+}

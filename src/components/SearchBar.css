@@ -1,0 +1,27 @@
+.search-container {
+  position: relative;
+}
+
+.input {
+  display: block;
+  margin: 1em auto 0;
+  width: 95%;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  border: 3px solid #ccc;
+  font-size: 1.5em;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAb1BMVEUAAACJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYm4Po3NAAAAJXRSTlMAAQIEDBAREhMUJS0uQ09QV19hZG1udHmbnJ64xMXGx8jOz9DUayO31AAAANNJREFUeAGF0fFugjAUhfGDg3W1blMEC2IV8Lz/My4nEnK7jOz3380nN7XFy0fdJzL1tUeujBMXUyxh7Acaw96UBzPj2sqBmtuDc6Edqe+0U6Km/v01VJ2muJxtUnnDYqc2e0itbRVWlXbWkJ5kC6MleYUkkgcYgWSCkKSD4Uiy+CdpYfi98Pb3MRqS3fbhzxA/61e77C8/vbmorrIXdcmvtwnOhWaknNZH0Zw7mqfcbGWcuXheTqaJr6+JvHVnDxzzJkUBUZNvZGy7Y7PZZH097p8/V4YmEaKXKKIAAAAASUVORK5CYII=');
+  position: absolute;
+  right: 4%;
+  bottom: 18%;
+  border: none;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  background-size: 25px;
+  background-color: transparent;
+}

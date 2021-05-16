@@ -1,0 +1,28 @@
+.sidebar-container {
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 #999;
+  flex-direction: column;
+  display: flex;
+  margin-top: 0.6em;
+  height: 43em;
+  width: 20em;
+  margin-right: 1em;
+  padding-top: 2em;
+}
+
+.checkbox {
+  margin: 0.1em 0;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 414px) {
+  .sidebar-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 1024px) {
+  .sidebar-container {
+    display: none;
+  }
+}
